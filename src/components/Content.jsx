@@ -18,7 +18,7 @@ const Content = () => {
 
     return (
         <div className='flex flex-col md:px-64'>
-            <div className='flex flex-col gap-4 my-4 text-center items-center justify-center md:justify-between md:flex-row'>
+            <div className='flex flex-col gap-4 my-4 text-center items-center justify-center md:justify-between'>
                 <div>
                     <p className="font-light text-xs">{data.meta && data.meta.method.name}</p>
                     <p className="font-medium text-lg">{city}</p>
